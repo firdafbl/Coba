@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum3,4</title>
+    <link rel="stylesheet" href="style_p3.css">
+</head>
+<body>
+    <h1>FORMULIR</h1>
+    <form action="">
+        <label for="name">Nama</label>
+        <input type="text"> 
+        <br>
+        <label for="tgl">Tempat Tanggal Lahir</label>
+        <input type="date">
+        <br>
+        <label for="agama">Agama</label>
+        <select name="agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+            <option value="Konghuchu">Konghuchu</option>
+        </select>
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" rows="5"></textarea>
+        <br>
+        <label for="notlp">Nomor Telepon</label>
+        <input type="number">
+        <br>
+        <label for="jk">Jenis Kelamin</label>
+        <div class="radio">
+            <input type="radio" name="jk">
+            <label for="jk">Pria</label>
+            <input type="radio" name="jk">
+            <label for="jk">Wanita</label>
+        </div>
+
+        <br>
+        <label for="hobi">Hobi</label>
+        <div class="checkbox">
+            <input type="checkbox">
+            <label for="membaca">Membaca</label>
+            <input type="checkbox">
+            <label for="menulis">Menulis</label>
+            <input type="checkbox">
+            <label for="olahraga">Olahraga</label>
+        </div>
+        
+        <br>
+        <label for="pasfoto">Pas Foto</label>
+        <input type="file">
+        <br><br>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>

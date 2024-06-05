@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas3</title>
+    <link rel="stylesheet" href="style_t3.css">
+</head>
+<body>
+    <h1>FORMULIR</h1>
+    <form action="">
+        <b><label for="name">Nama</label></b>
+        <input type="text">
+        <br><br>
+        <b><label for="email">Email</label></b>
+        <input type="email">
+        <br><br>
+        <b><label for="tgl">Tanggal</label></b>
+        <input type="date">
+        <br><br>
+        <b><label for="jk">Jenis Kelamin</label></b>
+        <select name="Jenis Kelamin">
+            <option value="Laki-Laki">Laki-Laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select>
+        <br><br>
+        <b><label for="prodi">Prodi</label></b>
+        <div class="radio">
+            <input type="radio" name="prodi">
+            <label for="prodi">Teknik Informatika</label>
+            <input type="radio" name="prodi">
+            <label for="prodi">Sistem Informasi</label>
+        </div>
+        <br>
+        <b><label for="pu">Pilihan UKM</label></b>
+        <div class="checkbox">
+            <input type="checkbox" name="pu">
+            <label for="pu">Al-Farabi</label>         
+            <input type="checkbox" name="pu">
+            <label for="pu">Pencinta Alam</label>
+            <br>
+            <input type="checkbox" name="pu">
+            <label for="pu">Penalaran</label>          
+            <input type="checkbox" name="pu">
+            <label for="pu">Badminton</label>
+        </div>
+        <br>
+        <b><label for="berkas">Upload</label></b>
+        <input type="file">
+        <br><br>
+        <b><label for="komen">Komentar</label></b>
+        <textarea name="komen" rows="9"></textarea>
+        <br><br>
+        <input type="submit" name="kirim" value="Kirim Pesan">
+        <input type="submit" name="hapus" value="Hapus">
+    </form>
+</body>
+</html>
